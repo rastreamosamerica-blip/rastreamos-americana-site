@@ -1,0 +1,7 @@
+{
+  "name": "rastreamos-americana-site",
+  "compatibility_date": "2026-09-05",
+  "assets": {
+    "directory": "./dist"
+  }
+}
