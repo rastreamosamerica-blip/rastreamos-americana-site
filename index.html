@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rastreamos Americana — Tecnologia para gestão de frotas e ativos. Controle veículos, reduza custos e aumente a eficiência da sua operação." />
+    <title>Rastreamos Americana | Tecnologia para Gestão de Frotas e Ativos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1RCCF49QQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-K1RCCF49QQ');
+    </script>
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+  <body>
+    <div id="app">
+      <!-- ============ NAVBAR ============ -->
+      <nav id="navbar">
+        <div class="nav-container">
+          <a href="#hero" class="nav-logo">
+            <img src="/logo.svg" alt="Rastreamos Americana" class="nav-logo-img" />
+            <span class="nav-logo-text">RASTREAMOS <strong>AMERICANA</strong></span>
+          </a>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#problems">Problemas</a></li>
+            <li><a href="#flow">Como Funciona</a></li>
+            <li><a href="#solutions">Soluções</a></li>
+            <li><a href="#segments">Segmentos</a></li>
+            <li><a href="#reviews">Avaliações</a></li>
+          </ul>
+          <div class="nav-actions">
+            <a href="#cta" class="btn btn-primary btn-sm">Solicitar Demonstração</a>
+          </div>
+          <button class="nav-toggle" id="navToggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- ============ HERO ============ -->
+      <header id="hero" class="hero">
+        <div class="hero-bg" id="heroBg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-content">
+          <div class="hero-badge" data-animate>
+            <span class="pulse-dot"></span>
+            Tecnologia para Gestão de Frotas e Ativos
+          </div>
+          <h1 class="hero-title" data-animate data-animate-delay="100">
+            Controle sua frota com<br />
+            <span class="text-accent">tecnologia e informações</span><br />
+            em tempo real.
+          </h1>
+          <p class="hero-subtitle" data-animate data-animate-delay="200">
+            A Rastreamos Americana ajuda empresas a controlar veículos, reduzir custos
+            e aumentar a eficiência da operação com tecnologia para gestão de frotas e ativos.
+          </p>
+          <div class="hero-buttons" data-animate data-animate-delay="300">
+            <a href="#cta" class="btn btn-primary btn-lg">
+              Solicitar Demonstração
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="https://wa.me/5519982481764" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+              Falar pelo WhatsApp
+            </a>
+          </div>
+          <div class="hero-stats" data-animate data-animate-delay="400">
+            <div class="hero-stat">
+              <span class="hero-stat-num" data-count="141">0</span><span>+</span>
+              <p>Veículos em Operação</p>
+            </div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat">
+              <span class="hero-stat-num" data-count="50">0</span><span>+</span>
+              <p>Empresas Atendidas</p>
+            </div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat hero-stat-stars">
+              <span class="hero-stat-stars-icon">★★★★★</span>
+              <p>Avaliação Google</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-scroll" id="heroScroll">
+          <span>Role para descobrir</span>
+          <div class="hero-scroll-line"></div>
+        </div>
+      </header>
+
+      <!-- ============ PROBLEMS ============ -->
+      <section id="problems" class="section section-problems">
+        <div class="container">
+          <div class="section-header" data-animate>
+            <span class="section-tag">Desafios</span>
+            <h2 class="section-title">Problemas que custam<br />caro à sua operação</h2>
+            <p class="section-desc">Sem a tecnologia certa, gestores de frota enfrentam perdas diárias que impactam diretamente o resultado da empresa.</p>
+          </div>
+          <div class="problems-grid">
+            <article class="problem-card" data-animate data-animate-delay="0">
+              <div class="problem-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3v12"/><circle cx="6" cy="17" r="3"/><path d="M12 7h6l2 2"/><circle cx="18" cy="17" r="3"/><path d="M6 14V7h6"/></svg>
+              </div>
+              <h3>Rotas ineficientes</h3>
+              <p>Veículos percorrem trajetos desnecessários, gerando tempo perdido e quilometragem extra que desgasta a frota.</p>
+            </article>
+            <article class="problem-card" data-animate data-animate-delay="100">
+              <div class="problem-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 22h12V8H3z"/><path d="M15 22h6V4h-6"/><path d="M6 12h6M6 16h6M18 8h0M18 12h0M18 16h0"/></svg>
+              </div>
+              <h3>Desperdício de combustível</h3>
+              <p>Sem controle, o consumo de combustível dispara com ralenti excessivo, desvios e falhas de operação.</p>
+            </article>
+            <article class="problem-card" data-animate data-animate-delay="200">
+              <div class="problem-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+              </div>
+              <h3>Falta de informação</h3>
+              <p>Decisões são tomadas no escuro, sem dados confiáveis sobre onde está cada veículo e como está sendo usado.</p>
+            </article>
+            <article class="problem-card" data-animate data-animate-delay="300">
+              <div class="problem-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+              </div>
+              <h3>Baixa produtividade</h3>
+              <p>Equipes e veículos ociosos, sem visibilidade do que está acontecendo em campo, reduzem o rendimento geral.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FLOW / TIMELINE ============ -->
+      <section id="flow" class="section section-flow">
+        <div class="container">
+          <div class="section-header" data-animate>
+            <span class="section-tag">Nosso Processo</span>
+            <h2 class="section-title">Do dado à decisão:<br />o caminho da gestão</h2>
+            <p class="section-desc">Cada etapa conecta a anterior, transformando localização bruta em resultados concretos para o seu negócio.</p>
+          </div>
+          <div class="timeline" id="timeline">
+            <div class="timeline-line" id="timelineLine"></div>
+            <div class="timeline-step" data-animate data-animate-delay="0">
+              <div class="timeline-node"><span>01</span></div>
+              <div class="timeline-content">
+                <h3>Localização</h3>
+                <p>Saber exatamente onde cada veículo e ativo está, em tempo real, é o primeiro passo para o controle.</p>
+              </div>
+            </div>
+            <div class="timeline-step" data-animate data-animate-delay="100">
+              <div class="timeline-node"><span>02</span></div>
+              <div class="timeline-content">
+                <h3>Informação</h3>
+                <p>Os dados de localização se transformam em informações claras: velocidade, paradas, rotas e comportamento.</p>
+              </div>
+            </div>
+            <div class="timeline-step" data-animate data-animate-delay="200">
+              <div class="timeline-node"><span>03</span></div>
+              <div class="timeline-content">
+                <h3>Controle</h3>
+                <p>Com informação em mãos, você define regras, limites e alertas que mantêm a operação dentro do planejado.</p>
+              </div>
+            </div>
+            <div class="timeline-step" data-animate data-animate-delay="300">
+              <div class="timeline-node"><span>04</span></div>
+              <div class="timeline-content">
+                <h3>Gestão</h3>
+                <p>O controle evolui para gestão estratégica: relatórios, indicadores e análises que orientam decisões.</p>
+              </div>
+            </div>
+            <div class="timeline-step" data-animate data-animate-delay="400">
+              <div class="timeline-node timeline-node-final"><span>05</span></div>
+              <div class="timeline-content">
+                <h3>Resultados</h3>
+                <p>Menos custos, mais produtividade e segurança. A tecnologia se traduz em resultado financeiro real.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SOLUTIONS ============ -->
+      <section id="solutions" class="section section-solutions">
+        <div class="container">
+          <div class="section-header" data-animate>
+            <span class="section-tag">Soluções</span>
+            <h2 class="section-title">Tecnologia para cada<br />necessidade da sua frota</h2>
+            <p class="section-desc">Conheça as soluções que a Rastreamos Americana oferece para gestão completa de frotas e ativos.</p>
+          </div>
+          <div class="solutions-grid">
+            <article class="solution-card" data-animate data-animate-delay="0">
+              <div class="solution-icon">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+              </div>
+              <h3>Rastreamento Plus</h3>
+              <p>Monitoramento completo de veículos com GPS de alta precisão, alertas em tempo real e relatórios detalhados de desempenho.</p>
+              <ul class="solution-features">
+                <li>Posição em tempo real</li>
+                <li>Alertas de velocidade e cerco</li>
+                <li>Histórico de trajetos</li>
+              </ul>
+            </article>
+            <article class="solution-card" data-animate data-animate-delay="100">
+              <div class="solution-icon">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a8 8 0 0116 0v1"/></svg>
+              </div>
+              <h3>Identificador de Motorista</h3>
+              <p>Saiba quem está dirigindo cada veículo, com identificação por chave ou biometria para auditoria total da operação.</p>
+              <ul class="solution-features">
+                <li>Identificação por chave iButton</li>
+                <li>Relatório por motorista</li>
+                <li>Controle de jornada</li>
+              </ul>
+            </article>
+            <article class="solution-card" data-animate data-animate-delay="200">
+              <div class="solution-icon">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M10 8l4 3-4 3V8z"/><circle cx="12" cy="21" r="1"/></svg>
+              </div>
+              <h3>Videometria Embarcada</h3>
+              <p>Câmeras embarcadas que registram eventos e comportamento do motorista, comprovando fatos e protegendo sua empresa.</p>
+              <ul class="solution-features">
+                <li>Câmera frontal e interna</li>
+                <li>Detecção de eventos</li>
+                <li>Evidências em vídeo</li>
+              </ul>
+            </article>
+            <article class="solution-card" data-animate data-animate-delay="300">
+              <div class="solution-icon">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 12V8H4v4"/><path d="M4 12v8h16v-8"/><path d="M12 3v5"/><circle cx="12" cy="16" r="2"/></svg>
+              </div>
+              <h3>TAG de Localização de Ativos</h3>
+              <p>Localize não só veículos, mas também equipamentos, contêineres e ativos valiosos com tags de baixo custo.</p>
+              <ul class="solution-features">
+                <li>Tracking de ativos fixos</li>
+                <li>Bateria de longa duração</li>
+                <li>Gestão de inventário</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ BENEFITS ============ -->
+      <section id="benefits" class="section section-benefits">
+        <div class="container">
+          <div class="section-header" data-animate>
+            <span class="section-tag">Benefícios</span>
+            <h2 class="section-title">Resultados que você<br />pode mensurar</h2>
+          </div>
+          <div class="benefits-grid">
+            <div class="benefit-item" data-animate data-animate-delay="0">
+              <div class="benefit-num">↓</div>
+              <h3>Redução de custos</h3>
+              <p>Menos combustível desperdiçado, menos manutenção corretiva e melhor aproveitamento da frota.</p>
+            </div>
+            <div class="benefit-item" data-animate data-animate-delay="80">
+              <div class="benefit-num">↑</div>
+              <h3>Mais produtividade</h3>
+              <p>Rotas otimizadas e jornada controlada aumentam o número de entregas e serviços por dia.</p>
+            </div>
+            <div class="benefit-item" data-animate data-animate-delay="160">
+              <div class="benefit-num">◆</div>
+              <h3>Segurança patrimonial</h3>
+              <p>Recuperação rápida em caso de desvio e evidências em vídeo protegem seu patrimônio e sua equipe.</p>
+            </div>
+            <div class="benefit-item" data-animate data-animate-delay="240">
+              <div class="benefit-num">◉</div>
+              <h3>Decisões com dados</h3>
+              <p>Relatórios e indicadores claros que transformam a gestão de frota em gestão estratégica.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ HOW IT WORKS ============ -->
+      <section id="howitworks" class="section section-how">
+        <div class="container">
+          <div class="section-header" data-animate>
+            <span class="section-tag">Como Funciona</span>
+            <h2 class="section-title">Implantação simples<br />em 4 passos</h2>
+          </div>
+          <div class="how-grid">
+            <div class="how-step" data-animate data-animate-delay="0">
+              <div class="how-step-num">1</div>
+              <h3>Diagnóstico</h3>
+              <p>Entendemos sua operação, sua frota e seus principais pontos de perda para propor a solução ideal.</p>
+            </div>
+            <div class="how-arrow" data-animate data-animate-delay="50">→</div>
+            <div class="how-step" data-animate data-animate-delay="100">
+              <div class="how-step-num">2</div>
+              <h3>Instalação</h3>
+              <p>Nossa equipe técnica instala os equipamentos nos veículos com agilidade e sem interromper a operação.</p>
+            </div>
+            <div class="how-arrow" data-animate data-animate-delay="150">→</div>
+            <div class="how-step" data-animate data-animate-delay="200">
+              <div class="how-step-num">3</div>
+              <h3>Configuração</h3>
+              <p>Definimos alertas, cercas, relatórios e usuários conforme as regras e necessidades da sua empresa.</p>
+            </div>
+            <div class="how-arrow" data-animate data-animate-delay="250">→</div>
+            <div class="how-step" data-animate data-animate-delay="300">
+              <div class="how-step-num">4</div>
+              <h3>Gestão ativa</h3>
+              <p>Você passa a acompanhar tudo em tempo real, com suporte dedicado e relatórios para decidir melhor.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SEGMENTS ============ -->
+      <section id="segments" class="section section-segments">
+        <div class="container">
+          <div class="section-header" data-animate>
+            <span class="section-tag">Segmentos</span>
+            <h2 class="section-title">Atendemos diversos<br />segmentos da economia</h2>
+            <p class="section-desc">A tecnologia de gestão de frotas se adapta a qualquer operação que dependa de veículos e ativos móveis.</p>
+          </div>
+          <div class="segments-grid">
+            <div class="segment-card" data-animate data-animate-delay="0">
+              <div class="segment-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 12h22M3 12V8l9-4 9 4v4M5 12v8h14v-8M8 16h2M14 16h2"/></svg>
+              </div>
+              <h3>Transportadoras</h3>
+              <p>Controle de rotas, entregas e motoristas para operações de carga e distribuição.</p>
+            </div>
+            <div class="segment-card" data-animate data-animate-delay="80">
+              <div class="segment-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 13l2-6h14l2 6M3 13v6h18v-6M3 13h18"/><circle cx="7" cy="17" r="1.5"/><circle cx="17" cy="17" r="1.5"/></svg>
+              </div>
+              <h3>Locadoras</h3>
+              <p>Proteção e monitoramento de veículos alugados com controle total da frota.</p>
+            </div>
+            <div class="segment-card" data-animate data-animate-delay="160">
+              <div class="segment-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 18V8l7-5 7 5v10M9 18v-6h6v6"/></svg>
+              </div>
+              <h3>Construção Civil</h3>
+              <p>Controle de caminhões e ativos em canteiros de obras dispersos.</p>
+            </div>
+            <div class="segment-card" data-animate data-animate-delay="240">
+              <div class="segment-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+              </div>
+              <h3>Prestadores de Serviço</h3>
+              <p>Gestão de veículos de atendimento técnico e equipes em campo.</p>
+            </div>
+            <div class="segment-card" data-animate data-animate-delay="320">
+              <div class="segment-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7h18v10H3zM7 7v10M17 7v10M3 12h18"/></svg>
+              </div>
+              <h3>Agronegócio</h3>
+              <p>Gestão de tratores, implementos e veículos de apoio no campo.</p>
+            </div>
+            <div class="segment-card" data-animate data-animate-delay="400">
+              <div class="segment-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 17h18M5 17V7h10v10M15 17v-6h4v6M8 10h4M8 13h4"/></svg>
+              </div>
+              <h3>Distribuidoras</h3>
+              <p>Otimização de rotas urbanas e controle de entregas no último quilômetro.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ WHY CHOOSE US ============ -->
+      <section id="why" class="section section-why">
+        <div class="why-bg-image"></div>
+        <div class="why-overlay"></div>
+        <div class="container">
+          <div class="section-header section-header-light" data-animate>
+            <span class="section-tag section-tag-light">Diferenciais</span>
+            <h2 class="section-title">Por que escolher a<br />Rastreamos Americana</h2>
+          </div>
+          <div class="why-grid">
+            <div class="why-card" data-animate data-animate-delay="0">
+              <div class="why-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+              </div>
+              <h3>Tecnologia própria</h3>
+              <p>Plataforma desenvolvida e mantida pela nossa equipe, com atualizações constantes e suporte direto.</p>
+            </div>
+            <div class="why-card" data-animate data-animate-delay="80">
+              <div class="why-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              </div>
+              <h3>Atendimento regional</h3>
+              <p>Equipe próxima da sua operação em Americana e região, com suporte ágil e presencial quando precisar.</p>
+            </div>
+            <div class="why-card" data-animate data-animate-delay="160">
+              <div class="why-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+              </div>
+              <h3>Implantação garantida</h3>
+              <p>Do diagnóstico à ativação, acompanhamos cada etapa para garantir que a solução funcione de verdade.</p>
+            </div>
+            <div class="why-card" data-animate data-animate-delay="240">
+              <div class="why-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3>Dados seguros</h3>
+              <p>Sua informação é tratada com criptografia e backups, seguindo as melhores práticas de segurança.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TECHNOLOGY IN ACTION ============ -->
+      <section id="tech-action" class="section section-tech-action">
+        <div class="container">
+          <div class="section-header" data-animate>
+            <span class="section-tag">Tecnologia em Ação</span>
+            <h2 class="section-title">Veja a plataforma<br />funcionando</h2>
+            <p class="section-desc">Um painel único, em tempo real, com tudo o que você precisa para gerir sua frota em um só lugar.</p>
+          </div>
+          <div class="tech-action-wrapper" data-animate>
+            <div class="tech-action-mockup">
+              <div class="mockup-bar">
+                <span class="mockup-dot red"></span>
+                <span class="mockup-dot yellow"></span>
+                <span class="mockup-dot green"></span>
+                <div class="mockup-url">app.rastreamosamericana.com.br</div>
+              </div>
+              <div class="mockup-body">
+                <div class="mockup-sidebar">
+                  <div class="mockup-sidebar-item active">Painel</div>
+                  <div class="mockup-sidebar-item">Veículos</div>
+                  <div class="mockup-sidebar-item">Relatórios</div>
+                  <div class="mockup-sidebar-item">Alertas</div>
+                  <div class="mockup-sidebar-item">Cercas</div>
+                  <div class="mockup-sidebar-item">Motoristas</div>
+                </div>
+                <div class="mockup-main">
+                  <div class="mockup-stats">
+                    <div class="mockup-stat-card">
+                      <span class="mockup-stat-label">Veículos ativos</span>
+                      <span class="mockup-stat-value">47</span>
+                      <div class="mockup-stat-bar"><div class="mockup-stat-fill" style="width:78%"></div></div>
+                    </div>
+                    <div class="mockup-stat-card">
+                      <span class="mockup-stat-label">Em movimento</span>
+                      <span class="mockup-stat-value">23</span>
+                      <div class="mockup-stat-bar"><div class="mockup-stat-fill" style="width:49%"></div></div>
+                    </div>
+                    <div class="mockup-stat-card">
+                      <span class="mockup-stat-label">Parados</span>
+                      <span class="mockup-stat-value">24</span>
+                      <div class="mockup-stat-bar"><div class="mockup-stat-fill" style="width:51%"></div></div>
+                    </div>
+                  </div>
+                  <div class="mockup-map">
+                    <div class="map-grid"></div>
+                    <div class="map-pin" style="top:25%;left:30%"><span></span></div>
+                    <div class="map-pin" style="top:55%;left:60%"><span></span></div>
+                    <div class="map-pin" style="top:40%;left:75%"><span></span></div>
+                    <div class="map-pin" style="top:70%;left:25%"><span></span></div>
+                    <div class="map-pin" style="top:30%;left:50%"><span></span></div>
+                    <div class="map-route"></div>
+                  </div>
+                  <div class="mockup-list">
+                    <div class="mockup-list-item"><span class="mockup-list-status online"></span> ABC-1234 — Em movimento — Rod. Anhanguera</div>
+                    <div class="mockup-list-item"><span class="mockup-list-status idle"></span> DEF-5678 — Parado — 12 min</div>
+                    <div class="mockup-list-item"><span class="mockup-list-status online"></span> GHI-9012 — Em movimento — Av. Brasil</div>
+                    <div class="mockup-list-item"><span class="mockup-list-status alert"></span> JKL-3456 — Excesso de velocidade</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ REVIEWS ============ -->
+      <section id="reviews" class="section section-reviews">
+        <div class="container">
+          <div class="section-header" data-animate>
+            <span class="section-tag">Avaliações</span>
+            <h2 class="section-title">O que nossos clientes<br />dizem no Google</h2>
+            <div class="reviews-rating" data-animate>
+              <div class="stars">★★★★★</div>
+              <span>4,8 / 5,0 — baseado em avaliações reais</span>
+            </div>
+          </div>
+          <div class="reviews-grid">
+            <article class="review-card" data-animate data-animate-delay="0">
+              <div class="review-stars">★★★★★</div>
+              <p>"Depois que implantamos o rastreamento, conseguimos reduzir o consumo de combustível em mais de 15%. O controle das rotas mudou a nossa operação."</p>
+              <div class="review-author">
+                <div class="review-avatar">RM</div>
+                <div>
+                  <strong>Ricardo Mendes</strong>
+                  <span>Gestor de Frota — Transportadora</span>
+                </div>
+              </div>
+            </article>
+            <article class="review-card" data-animate data-animate-delay="100">
+              <div class="review-stars">★★★★★</div>
+              <p>"A videometria embarcada já nos ajudou a comprovar vários eventos que antes eram palavra contra palavra. Investimento que se pagou rápido."</p>
+              <div class="review-author">
+                <div class="review-avatar">PS</div>
+                <div>
+                  <strong>Patrícia Souza</strong>
+                  <span>Diretora de Operações — Logística</span>
+                </div>
+              </div>
+            </article>
+            <article class="review-card" data-animate data-animate-delay="200">
+              <div class="review-stars">★★★★★</div>
+              <p>"Suporte excelente e plataforma fácil de usar. A equipe da Rastreamos Americana está sempre disponível quando precisamos."</p>
+              <div class="review-author">
+                <div class="review-avatar">JO</div>
+                <div>
+                  <strong>João Oliveira</strong>
+                  <span>Proprietário — Distribuidora</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FINAL CTA ============ -->
+      <section id="cta" class="section section-cta">
+        <div class="container">
+          <div class="cta-box" data-animate>
+            <div class="cta-glow"></div>
+            <h2 class="cta-title">Pronto para transformar<br />a gestão da sua frota?</h2>
+            <p class="cta-desc">Solicite uma demonstração gratuita e veja em primeira mão como a tecnologia da Rastreamos Americana pode reduzir custos e aumentar a eficiência da sua operação.</p>
+            <div class="cta-actions">
+              <a href="https://wa.me/5519982481764?text=Ol%C3%A1%2C+gostaria+de+solicitar+uma+demonstra%C3%A7%C3%A3o+da+plataforma+Rastreamos+Americana." target="_blank" rel="noopener" class="btn btn-primary btn-lg btn-block">
+                Solicitar Demonstração
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+              </a>
+              <a href="https://wa.me/5519982481764" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg btn-block">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                Falar pelo WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FOOTER ============ -->
+      <footer id="footer" class="footer">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-brand">
+              <a href="#hero" class="nav-logo">
+                <img src="/logo.svg" alt="Rastreamos Americana" class="nav-logo-img" />
+                <span class="nav-logo-text">RASTREAMOS <strong>AMERICANA</strong></span>
+              </a>
+              <p class="footer-tagline">Tecnologia para Gestão de Frotas e Ativos</p>
+              <p class="footer-desc">Controle, informação e resultados para a sua operação.</p>
+              <div class="footer-social">
+                <a href="https://wa.me/5519982481764" target="_blank" rel="noopener" aria-label="WhatsApp" class="footer-social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                </a>
+                <a href="mailto:rastreamosamerica@gmail.com" aria-label="E-mail" class="footer-social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
+                </a>
+
+              </div>
+            </div>
+            <div class="footer-col">
+              <h4>Soluções</h4>
+              <a href="#solutions">Rastreamento Plus</a>
+              <a href="#solutions">Identificador de Motorista</a>
+              <a href="#solutions">Videometria Embarcada</a>
+              <a href="#solutions">TAG de Localização</a>
+            </div>
+            <div class="footer-col">
+              <h4>Empresa</h4>
+              <a href="#why">Diferenciais</a>
+              <a href="#segments">Segmentos</a>
+              <a href="#reviews">Avaliações</a>
+              <a href="#cta">Contato</a>
+            </div>
+            <div class="footer-col">
+              <h4>Contato</h4>
+              <a href="https://wa.me/5519982481764" target="_blank" rel="noopener" class="footer-contact-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                WhatsApp
+              </a>
+              <a href="mailto:rastreamosamerica@gmail.com" class="footer-contact-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
+                rastreamosamerica@gmail.com
+              </a>
+              <p class="footer-loc">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Americana — São Paulo, Brasil
+              </p>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>© <span id="footerYear"></span> Rastreamos Americana. Todos os direitos reservados. <a href="/privacy.html" class="footer-privacy-link">Política de Privacidade</a></p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
